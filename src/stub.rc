@@ -1,1 +1,34 @@
-101 ICON vit-ruby.ico
+#include "winresrc.h"
+
+
+// Application icon
+101 ICON sikulix.ico
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,15
+ PRODUCTVERSION 2,1,0,15
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "SKOOR AG"
+            VALUE "FileDescription", "SikuliX"
+            VALUE "FileVersion", "2.1.0.15"
+            VALUE "InternalName", "sikulix.exe"
+            VALUE "LegalCopyright", "Copyright (c) 2018 Raimund Hocke"
+            VALUE "OriginalFilename", "sikulix.exe"
+            VALUE "ProductName", "SikuliX"
+            VALUE "ProductVersion", "2.1.0.15"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
